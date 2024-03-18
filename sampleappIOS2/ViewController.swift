@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         let chatController = verloop.getNavController()
         self.present(chatController, animated: true)
         
+        config.setButtonOnClickListener(onButtonClicked:{ (title:Any, type:Any, payload:Any) in
+            print("Inside ButtonClickListner Button -> ",title)
+        })
+        config.setUrlClickListener(onUrlClicked:{ (url:Any) in
+            print("Inside URL ClickListners URL -> ",url)
+       })
+        
     }
     
 }
