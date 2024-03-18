@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DFDEC207FBD6FB5337CFBDFE14825A /* VerloopSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF2FDE75E2F58C1C966BB5790C28133 /* VerloopSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AAEC540CD1E672417B8DB5A04D4454D /* VLWebViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF20A647E8379506C0378A33C5811C7 /* VLWebViewManager.swift */; };
+		0D0222333423D16A280CF7D598FB540E /* VLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230C9FD539281E532DABDE025A4FA1B /* VLNetworkManager.swift */; };
+		144DCC6DDCCE3CE92940F19CE3670FE8 /* VLEventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E5A34C6E4E430622F30C1104AC3CB /* VLEventDelegate.swift */; };
+		262D413238CE085E5F951BB4E12A20D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2A1A01161196EA83054B843FD646AEC1 /* VLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1D6F4F340ECFA72E66628554EF80D /* VLExtensions.swift */; };
+		32347A61AA1359E92B6C6581582354BC /* VerloopSDKiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A833CBA5D19450D3E3B97A5272F9627 /* VerloopSDKiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E6479300B405D7C4D6F51F36FBAD8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35208182500DE49DE800CEFE98812949 /* Constants.swift */; };
+		6EE879C2644B6FE93D5508B2C1FCDE3D /* VLEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767B9CE36DA34DBD2403341153F47DF /* VLEvent.swift */; };
+		71C97B7C344519BA24144054FF7742EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72388F88FAA1C6469D8B8C809C99CDF5 /* VerloopSDKiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99819D9D51F8DD0F4FBA245CF9295B82 /* VerloopSDKiOS-dummy.m */; };
+		743954F13A10DF739F78500B38D97A6B /* VLNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5511F57D5AAD2ED8166DA6AA234C5 /* VLNavViewController.swift */; };
+		824A0F54F13E14A038A574C2718EE555 /* VerloopSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF996EB160A91C6FE5930A2CBF36CA38 /* VerloopSDK.swift */; };
+		8886E8D9A1976C4DA519F162E350F73A /* VLJSInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721843A31B3EB9FF19906EDE6DA5E40 /* VLJSInterface.swift */; };
+		93D4135EF6727C19BD8F7B05E260B1AE /* Pods-sampleappIOS2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BD6253D059E8F5DC90A521C3A62A6B /* Pods-sampleappIOS2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E44B93EF7F8DA42D62471037D509EBB /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5850DC04F60B5F17753963242F813 /* NetworkMonitor.swift */; };
+		ABFF6AAD81955C398361846A686036CE /* VLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733705CE9EFE882B126EA75E271753BC /* VLViewController.swift */; };
+		B5145293DF40016C6D59956FE5ECCB1D /* ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F9AD6163157ACFA99C18F0B003E29 /* ScriptMessageHandler.swift */; };
+		C3F1520F9F475ECFB48A0C2E9E001536 /* VLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AABA66AE4CFE7F08D44F994795551B /* VLConfig.swift */; };
+		CA172D782EF57C0C3797711765F1BC12 /* Pods-sampleappIOS2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9283DD7E7B043E37AD5447D8623F5D /* Pods-sampleappIOS2-dummy.m */; };
+		CF3DB4B179B81485DBF5388636351CE8 /* VLClientInfoSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0B838314373BB7879B4947504E03E /* VLClientInfoSchema.swift */; };
+		F48E1CFAF17EF844BE912C083C86520A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349450777C4AB9A4360792B76F517011 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7F61CE542B75818B6C410F258E993E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A74B5A5E2B97F60184141B9134706A;
+			remoteInfo = VerloopSDKiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF2FDE75E2F58C1C966BB5790C28133 /* VerloopSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VerloopSDK.h; path = VerloopSDK/VerloopSDK.h; sourceTree = "<group>"; };
+		11B14CD8D525C6613D1431069EE1E51D /* Pods-sampleappIOS2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sampleappIOS2.modulemap"; sourceTree = "<group>"; };
+		15F5850DC04F60B5F17753963242F813 /* NetworkMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkMonitor.swift; path = VerloopSDK/NetworkMonitor.swift; sourceTree = "<group>"; };
+		1721843A31B3EB9FF19906EDE6DA5E40 /* VLJSInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLJSInterface.swift; path = VerloopSDK/VLJSInterface.swift; sourceTree = "<group>"; };
+		1C9283DD7E7B043E37AD5447D8623F5D /* Pods-sampleappIOS2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sampleappIOS2-dummy.m"; sourceTree = "<group>"; };
+		24F5511F57D5AAD2ED8166DA6AA234C5 /* VLNavViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLNavViewController.swift; path = VerloopSDK/VLNavViewController.swift; sourceTree = "<group>"; };
+		2631AB20162953A6D0DE85A5D11A73E8 /* Pods-sampleappIOS2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sampleappIOS2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		265E5A34C6E4E430622F30C1104AC3CB /* VLEventDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLEventDelegate.swift; path = VerloopSDK/VLEventDelegate.swift; sourceTree = "<group>"; };
+		2767B9CE36DA34DBD2403341153F47DF /* VLEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLEvent.swift; path = VerloopSDK/VLEvent.swift; sourceTree = "<group>"; };
+		304F9AD6163157ACFA99C18F0B003E29 /* ScriptMessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessageHandler.swift; path = VerloopSDK/ScriptMessageHandler.swift; sourceTree = "<group>"; };
+		32BD6253D059E8F5DC90A521C3A62A6B /* Pods-sampleappIOS2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sampleappIOS2-umbrella.h"; sourceTree = "<group>"; };
+		349450777C4AB9A4360792B76F517011 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = VerloopSDK/Reachability.swift; sourceTree = "<group>"; };
+		35208182500DE49DE800CEFE98812949 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = VerloopSDK/Constants.swift; sourceTree = "<group>"; };
+		433ABFF2319A7CBDF6210AFFCC52FC3E /* Pods-sampleappIOS2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sampleappIOS2-Info.plist"; sourceTree = "<group>"; };
+		44E96DA09DC4399FA26D0D6EEA682966 /* VerloopSDKiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VerloopSDKiOS; path = VerloopSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A833CBA5D19450D3E3B97A5272F9627 /* VerloopSDKiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerloopSDKiOS-umbrella.h"; sourceTree = "<group>"; };
+		4C61A158E88C5457D964B2DFFA126602 /* Pods-sampleappIOS2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sampleappIOS2-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A594CF0D830884C749672DF99B00DF9 /* Pods-sampleappIOS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampleappIOS2.debug.xcconfig"; sourceTree = "<group>"; };
+		61C0B838314373BB7879B4947504E03E /* VLClientInfoSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLClientInfoSchema.swift; path = VerloopSDK/VLClientInfoSchema.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		733705CE9EFE882B126EA75E271753BC /* VLViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLViewController.swift; path = VerloopSDK/VLViewController.swift; sourceTree = "<group>"; };
+		7CF20A647E8379506C0378A33C5811C7 /* VLWebViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLWebViewManager.swift; path = VerloopSDK/VLWebViewManager.swift; sourceTree = "<group>"; };
+		81BFCD8BE5B5A2807D1457C548D154EF /* Pods-sampleappIOS2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sampleappIOS2-frameworks.sh"; sourceTree = "<group>"; };
+		822C2A7E13323DDC0AE9BF7235899019 /* VerloopSDKiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VerloopSDKiOS.modulemap; sourceTree = "<group>"; };
+		8FDDEDE6867100F1C3C07C03D58C82E2 /* Pods_sampleappIOS2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleappIOS2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9646379099A42B0B676F3BDAF9D03320 /* VerloopSDKiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VerloopSDKiOS-Info.plist"; sourceTree = "<group>"; };
+		99819D9D51F8DD0F4FBA245CF9295B82 /* VerloopSDKiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VerloopSDKiOS-dummy.m"; sourceTree = "<group>"; };
+		9D6DF202FC8F5D93950931418055D60B /* VerloopSDKiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerloopSDKiOS.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2AABA66AE4CFE7F08D44F994795551B /* VLConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLConfig.swift; path = VerloopSDK/VLConfig.swift; sourceTree = "<group>"; };
+		B230C9FD539281E532DABDE025A4FA1B /* VLNetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLNetworkManager.swift; path = VerloopSDK/NetworkManager/VLNetworkManager.swift; sourceTree = "<group>"; };
+		C8E574B5156DA41260227470557B0091 /* VerloopSDKiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerloopSDKiOS.release.xcconfig; sourceTree = "<group>"; };
+		E2D1D6F4F340ECFA72E66628554EF80D /* VLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VLExtensions.swift; path = VerloopSDK/VLExtensions.swift; sourceTree = "<group>"; };
+		FC362CC2E5B7322845CC7242CE5D965B /* Pods-sampleappIOS2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sampleappIOS2.release.xcconfig"; sourceTree = "<group>"; };
+		FF5AB84ABB6B2ECB82848F4F3521F4B6 /* VerloopSDKiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerloopSDKiOS-prefix.pch"; sourceTree = "<group>"; };
+		FF996EB160A91C6FE5930A2CBF36CA38 /* VerloopSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerloopSDK.swift; path = VerloopSDK/VerloopSDK.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7056CA7DD908C713526C9E4DEC0D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C97B7C344519BA24144054FF7742EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FF5C312217F5B5D0A209122B9C4175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262D413238CE085E5F951BB4E12A20D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DEB6CA8208E630DDB736B54C7166DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDDEDE6867100F1C3C07C03D58C82E2 /* Pods_sampleappIOS2.framework */,
+				44E96DA09DC4399FA26D0D6EEA682966 /* VerloopSDKiOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DB63652125C163283CA46FB96125310 /* VerloopSDKiOS */ = {
+			isa = PBXGroup;
+			children = (
+				35208182500DE49DE800CEFE98812949 /* Constants.swift */,
+				15F5850DC04F60B5F17753963242F813 /* NetworkMonitor.swift */,
+				349450777C4AB9A4360792B76F517011 /* Reachability.swift */,
+				304F9AD6163157ACFA99C18F0B003E29 /* ScriptMessageHandler.swift */,
+				0FF2FDE75E2F58C1C966BB5790C28133 /* VerloopSDK.h */,
+				FF996EB160A91C6FE5930A2CBF36CA38 /* VerloopSDK.swift */,
+				61C0B838314373BB7879B4947504E03E /* VLClientInfoSchema.swift */,
+				A2AABA66AE4CFE7F08D44F994795551B /* VLConfig.swift */,
+				2767B9CE36DA34DBD2403341153F47DF /* VLEvent.swift */,
+				265E5A34C6E4E430622F30C1104AC3CB /* VLEventDelegate.swift */,
+				E2D1D6F4F340ECFA72E66628554EF80D /* VLExtensions.swift */,
+				1721843A31B3EB9FF19906EDE6DA5E40 /* VLJSInterface.swift */,
+				24F5511F57D5AAD2ED8166DA6AA234C5 /* VLNavViewController.swift */,
+				B230C9FD539281E532DABDE025A4FA1B /* VLNetworkManager.swift */,
+				733705CE9EFE882B126EA75E271753BC /* VLViewController.swift */,
+				7CF20A647E8379506C0378A33C5811C7 /* VLWebViewManager.swift */,
+				B4BCBD860A7E0517D7F51391165B2B9A /* Support Files */,
+			);
+			path = VerloopSDKiOS;
+			sourceTree = "<group>";
+		};
+		610EDEE13A93ECD100B0D69B1706EB54 /* Pods-sampleappIOS2 */ = {
+			isa = PBXGroup;
+			children = (
+				11B14CD8D525C6613D1431069EE1E51D /* Pods-sampleappIOS2.modulemap */,
+				2631AB20162953A6D0DE85A5D11A73E8 /* Pods-sampleappIOS2-acknowledgements.markdown */,
+				4C61A158E88C5457D964B2DFFA126602 /* Pods-sampleappIOS2-acknowledgements.plist */,
+				1C9283DD7E7B043E37AD5447D8623F5D /* Pods-sampleappIOS2-dummy.m */,
+				81BFCD8BE5B5A2807D1457C548D154EF /* Pods-sampleappIOS2-frameworks.sh */,
+				433ABFF2319A7CBDF6210AFFCC52FC3E /* Pods-sampleappIOS2-Info.plist */,
+				32BD6253D059E8F5DC90A521C3A62A6B /* Pods-sampleappIOS2-umbrella.h */,
+				5A594CF0D830884C749672DF99B00DF9 /* Pods-sampleappIOS2.debug.xcconfig */,
+				FC362CC2E5B7322845CC7242CE5D965B /* Pods-sampleappIOS2.release.xcconfig */,
+			);
+			name = "Pods-sampleappIOS2";
+			path = "Target Support Files/Pods-sampleappIOS2";
+			sourceTree = "<group>";
+		};
+		9171472DF524C95C0D1EF0B4CFADAD3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB63652125C163283CA46FB96125310 /* VerloopSDKiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2AC083810C0724CFCE452A6587E4584 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				610EDEE13A93ECD100B0D69B1706EB54 /* Pods-sampleappIOS2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4BCBD860A7E0517D7F51391165B2B9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				822C2A7E13323DDC0AE9BF7235899019 /* VerloopSDKiOS.modulemap */,
+				99819D9D51F8DD0F4FBA245CF9295B82 /* VerloopSDKiOS-dummy.m */,
+				9646379099A42B0B676F3BDAF9D03320 /* VerloopSDKiOS-Info.plist */,
+				FF5AB84ABB6B2ECB82848F4F3521F4B6 /* VerloopSDKiOS-prefix.pch */,
+				4A833CBA5D19450D3E3B97A5272F9627 /* VerloopSDKiOS-umbrella.h */,
+				9D6DF202FC8F5D93950931418055D60B /* VerloopSDKiOS.debug.xcconfig */,
+				C8E574B5156DA41260227470557B0091 /* VerloopSDKiOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VerloopSDKiOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9171472DF524C95C0D1EF0B4CFADAD3F /* Pods */,
+				0DEB6CA8208E630DDB736B54C7166DB0 /* Products */,
+				A2AC083810C0724CFCE452A6587E4584 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91B8DDA1E807E542ED5AC7F8E46D868E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFDEC207FBD6FB5337CFBDFE14825A /* VerloopSDK.h in Headers */,
+				32347A61AA1359E92B6C6581582354BC /* VerloopSDKiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934FDA9E7933CDFFDE28F4708A2AFB86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4135EF6727C19BD8F7B05E260B1AE /* Pods-sampleappIOS2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21A74B5A5E2B97F60184141B9134706A /* VerloopSDKiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C91F1B27242C998956D516A8B4192DF /* Build configuration list for PBXNativeTarget "VerloopSDKiOS" */;
+			buildPhases = (
+				91B8DDA1E807E542ED5AC7F8E46D868E /* Headers */,
+				88DE03A0761A5078FEE4F5DE299E83CE /* Sources */,
+				49FF5C312217F5B5D0A209122B9C4175 /* Frameworks */,
+				FFA437DBF41D3A93C8E001F84DF473F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerloopSDKiOS;
+			productName = VerloopSDKiOS;
+			productReference = 44E96DA09DC4399FA26D0D6EEA682966 /* VerloopSDKiOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F458AE088AC36C85BB69B5CA7112716 /* Pods-sampleappIOS2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18816172A0E0C1E0CBE55B1DE76CD005 /* Build configuration list for PBXNativeTarget "Pods-sampleappIOS2" */;
+			buildPhases = (
+				934FDA9E7933CDFFDE28F4708A2AFB86 /* Headers */,
+				1CAACF2211E86963A0C5AC1EF1D3FAC7 /* Sources */,
+				0F7056CA7DD908C713526C9E4DEC0D1A /* Frameworks */,
+				FF0ECF128E46F5B16E2B5E06ED128B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB474A110E26D93AA772524D3466ECF /* PBXTargetDependency */,
+			);
+			name = "Pods-sampleappIOS2";
+			productName = Pods_sampleappIOS2;
+			productReference = 8FDDEDE6867100F1C3C07C03D58C82E2 /* Pods_sampleappIOS2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0DEB6CA8208E630DDB736B54C7166DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F458AE088AC36C85BB69B5CA7112716 /* Pods-sampleappIOS2 */,
+				21A74B5A5E2B97F60184141B9134706A /* VerloopSDKiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0ECF128E46F5B16E2B5E06ED128B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA437DBF41D3A93C8E001F84DF473F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAACF2211E86963A0C5AC1EF1D3FAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA172D782EF57C0C3797711765F1BC12 /* Pods-sampleappIOS2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DE03A0761A5078FEE4F5DE299E83CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E6479300B405D7C4D6F51F36FBAD8B /* Constants.swift in Sources */,
+				9E44B93EF7F8DA42D62471037D509EBB /* NetworkMonitor.swift in Sources */,
+				F48E1CFAF17EF844BE912C083C86520A /* Reachability.swift in Sources */,
+				B5145293DF40016C6D59956FE5ECCB1D /* ScriptMessageHandler.swift in Sources */,
+				824A0F54F13E14A038A574C2718EE555 /* VerloopSDK.swift in Sources */,
+				72388F88FAA1C6469D8B8C809C99CDF5 /* VerloopSDKiOS-dummy.m in Sources */,
+				CF3DB4B179B81485DBF5388636351CE8 /* VLClientInfoSchema.swift in Sources */,
+				C3F1520F9F475ECFB48A0C2E9E001536 /* VLConfig.swift in Sources */,
+				6EE879C2644B6FE93D5508B2C1FCDE3D /* VLEvent.swift in Sources */,
+				144DCC6DDCCE3CE92940F19CE3670FE8 /* VLEventDelegate.swift in Sources */,
+				2A1A01161196EA83054B843FD646AEC1 /* VLExtensions.swift in Sources */,
+				8886E8D9A1976C4DA519F162E350F73A /* VLJSInterface.swift in Sources */,
+				743954F13A10DF739F78500B38D97A6B /* VLNavViewController.swift in Sources */,
+				0D0222333423D16A280CF7D598FB540E /* VLNetworkManager.swift in Sources */,
+				ABFF6AAD81955C398361846A686036CE /* VLViewController.swift in Sources */,
+				0AAEC540CD1E672417B8DB5A04D4454D /* VLWebViewManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AB474A110E26D93AA772524D3466ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VerloopSDKiOS;
+			target = 21A74B5A5E2B97F60184141B9134706A /* VerloopSDKiOS */;
+			targetProxy = 3E7F61CE542B75818B6C410F258E993E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0D17E3A9B4D1850643D7CC40D3883E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A594CF0D830884C749672DF99B00DF9 /* Pods-sampleappIOS2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sampleappIOS2/Pods-sampleappIOS2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sampleappIOS2/Pods-sampleappIOS2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6982AF723507EEC78A4322E378298E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E574B5156DA41260227470557B0091 /* VerloopSDKiOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = VerloopSDKiOS;
+				PRODUCT_NAME = VerloopSDKiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		997DD0E5E8D7FD6E98584F0F421527FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC362CC2E5B7322845CC7242CE5D965B /* Pods-sampleappIOS2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sampleappIOS2/Pods-sampleappIOS2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sampleappIOS2/Pods-sampleappIOS2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF47E61BFE16C4465A9CFE9F818DCA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6DF202FC8F5D93950931418055D60B /* VerloopSDKiOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VerloopSDKiOS/VerloopSDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = VerloopSDKiOS;
+				PRODUCT_NAME = VerloopSDKiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18816172A0E0C1E0CBE55B1DE76CD005 /* Build configuration list for PBXNativeTarget "Pods-sampleappIOS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D17E3A9B4D1850643D7CC40D3883E1E /* Debug */,
+				997DD0E5E8D7FD6E98584F0F421527FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C91F1B27242C998956D516A8B4192DF /* Build configuration list for PBXNativeTarget "VerloopSDKiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47E61BFE16C4465A9CFE9F818DCA84 /* Debug */,
+				6982AF723507EEC78A4322E378298E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
